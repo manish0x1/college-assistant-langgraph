@@ -1,0 +1,34 @@
+# Virtual Environment
+venv/
+.env/
+
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# FAISS Index (optional, if generated)
+*.faiss
+*.pkl
+
+# Logs
+*.log
